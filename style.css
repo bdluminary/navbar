@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    background-color: #aaaaaa
+}
+/* Navigation Bar CSS */
+.navbar-container {
+    height: 10vh;
+    width: 100vw;
+}
+.navbar {
+    padding: 0 20px;
+    background-color: darkslategray
+}
+.navbar__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.nav__menu {
+    display: block;
+    height: 100%;
+}
+.nav__logo {
+    color: whitesmoke;
+    text-shadow: rgba(0, 0, 0, .3);
+    padding: 0 10px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+li {
+    padding: 0 2vw;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: red;
+    transition: 0.98s;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+li:hover{
+    background-color:blue
+}
+
+/* Hero section */
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+p {
+    font-size: 2rem;
+    color: #251111;
+    margin: 0 20px;
+    padding: 0 10px;
+}
+.heading h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(150, 15, 255);
+    text-align: center;
+}
+.heading img {
+    width: 100px
+}
